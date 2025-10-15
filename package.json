@@ -1,0 +1,23 @@
+{
+  "name": "simplepracticercb",
+  "version": "1.0.0",
+  "description": "Home Assessment",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardotq182/SimplePracticeRCB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardotq182/SimplePracticeRCB/issues"
+  },
+  "homepage": "https://github.com/ricardotq182/SimplePracticeRCB#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2",
+    "dotenv": "^17.2.3"
+  }
+}
