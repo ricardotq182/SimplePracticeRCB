@@ -20,7 +20,7 @@ jobs:
     - name: Install dotenv
       run: npm install dotenv
     - name: Run Playwright tests
-      run: npx playwright test simplePracticeLogin.spec.ts -g "User login SimplePractice" --workers=1
+      run: npx playwright test simplePracticeLogin.spec.ts --project=chromium --headed --workers=1
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
