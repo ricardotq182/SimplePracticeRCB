@@ -8,12 +8,15 @@ Below each high level scenario, you can find the test scenarios list for corresp
 - Navigate left menu options to ensure each redirects to the correct page.
 - Verify the left menu highlights “Tasks” as the active section to indicate the current page.
 - Validate Tasks page layout to ensure all primary sections are visible on page load.
+- Validate behavior of "Help" button on bottom right corner of screen
+- Validate behavior of appointment-requests setup button on bottom left corner of screen
 
 # ➕ 2. Create Task
 ## High Level Scenario:
-- Open the Create Task modal and confirm all expected input fields are available.
+- Identify "Create task" button and confirm modal displays all expected input fields.
 - Create a new task with valid data and verify it can be saved successfully.
 - Ensure the newly created task appears in the Incomplete list with correct default status.
+- Create a task with "+ Add quick task" button
 
 # ✅ 3. Task Completion
 ## High Level Scenarios:
@@ -26,7 +29,7 @@ Below each high level scenario, you can find the test scenarios list for corresp
 - Ensure the Status filter defaults to Incomplete and contains exactly three options (Incomplete, Complete, All).
 - Change the Status filter and confirm the task list updates dynamically.
 - Validate that the “Assigned to” drop-down displays the full list of users.
-- Verify the Sorting drop-down contains exactly four options and tasks are sorted correctly.
+- Verify the Sorting drop-down contains exactly four options and tasks are sorted correctly(Custom, Due Date, Date Created, Priority).
 - Create a task with "+ Add quick task" button
 
 # 🔄 5. Task List Display
