@@ -44,5 +44,8 @@ npx playwright test
 Run Tests in Headed Mode to see the browser interact during the test:
 npx playwright test --headed
 
-Run Specific Tests
-npx playwright test path/to/your/test.spec.ts
+Run SimplePractice home assessment test in 1 browser only:
+npx playwright test simplePracticeLogin.spec.ts --project=chromium --headed --workers=1
+
+Run SimplePractice home assessment test in 3 browsers:
+npx playwright test simplePracticeLogin.spec.ts --headed --workers=1
