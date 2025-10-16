@@ -1,3 +1,5 @@
+//This page is obsolete, is not being called or imported anywhere in the project
+// IGNORE THIS FILE
 import { Page } from '@playwright/test';
 
 export default class LoginPage {
